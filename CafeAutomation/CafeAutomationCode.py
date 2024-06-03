@@ -1,7 +1,7 @@
 import tkinter as tk
 
 window = tk.Tk()
-window.geometry("1000x500")
+window.geometry("1000x550")
 window.resizable(width="FALSE",height="FALSE")
 window.title("Cafe Automation")
 
@@ -54,7 +54,7 @@ label = tk.Label(window,text="Cafe Automation",bg="gray",fg="white",font=("arial
 label.pack()
 
 frame = tk.Frame(window,bg="light gray",width=300,height=350)
-frame.place(x=10,y=120)
+frame.place(x=50,y=120)
 
 label1 = tk.Label(frame,text="Menu",font=("Gabriola",30,"bold"),bg="light gray")
 label1.place(x=100,y=0)
@@ -77,7 +77,7 @@ label_drink7 = tk.Label(frame,text="Water ................. 15 TL",fg="black",bg
 label_drink7.place(x=25,y=290)
 
 frame2 = tk.Frame(window,height=370,width=300)
-frame2.pack()
+frame2.place(x=430,y=90)
 
 turkish_coffee = tk.StringVar()
 milk_coffee = tk.StringVar()
@@ -125,7 +125,7 @@ buton_collect = tk.Button(frame2,fg="black",bg="light gray",font=("arial",15,"bo
 buton_collect.place(x=125,y=330)
 
 frame3 = tk.Frame(window,width=300,height=400)
-frame3.place(x=700, y=120)
+frame3.place(x=750, y=220)
 
 label_total = tk.Label(frame3,text="Total",font=("calibri",20),bg="light gray")
 label_total.place(x=70, y=10)
