@@ -131,6 +131,6 @@ label_total = tk.Label(frame3,text="Total",font=("calibri",20),bg="light gray")
 label_total.place(x=70, y=10)
 
 entry_total = tk.Entry(frame3,font=("arial",15,"bold"),textvariable=total,width=15,bg="light gray")
-entry_total.place(x=30, y=70)
+entry_total.place(x=20, y=70)
 
 window.mainloop()
